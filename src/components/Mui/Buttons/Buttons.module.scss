@@ -1,0 +1,15 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
