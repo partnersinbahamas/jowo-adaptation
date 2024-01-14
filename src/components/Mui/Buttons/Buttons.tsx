@@ -1,6 +1,6 @@
-import { Button } from '@mui/material';
+import { Button, IconButton } from '@mui/material';
 import styles from './Buttons.module.scss';
-import { Delete } from '@mui/icons-material';
+import { Alarm, Delete, Fingerprint } from '@mui/icons-material';
 import { Send } from '@mui/icons-material';
 import { useState } from 'react';
 
@@ -40,6 +40,26 @@ export const Buttons = () => {
 
         <Button variant='contained' startIcon={<Delete />}>Delete</Button>
         <Button variant='outlined' startIcon={<Send />}>Send</Button>
+      </div>
+
+      <div className={styles.container}>
+        <h6>Icon buttons</h6>
+
+        <IconButton aria-label='delete' color='error'>
+          <Delete />
+        </IconButton>
+
+        <IconButton aria-label='delete' color="warning">
+          <Alarm fontSize="inherit"/>
+        </IconButton>
+
+        <IconButton aria-label='delete' color="success" size="small">
+          <Fingerprint fontSize="inherit"/>
+        </IconButton>
+
+        <IconButton aria-label='delete' color="secondary" size="large">
+          <Fingerprint fontSize="inherit"/>
+        </IconButton>
       </div>
     </div>
   )
