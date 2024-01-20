@@ -2,7 +2,8 @@ import { ReactNode } from 'react';
 import styles from './Section.module.scss';
 
 type Props = {
-  children: ReactNode
+  children: ReactNode,
+  // styles?: {[key: string]: any},
 }
 
 export const Section: React.FC<Props> = ({ children }) => {
