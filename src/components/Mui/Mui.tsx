@@ -9,6 +9,7 @@ import { Fabs } from './Fabs/Fabs';
 import { DoubleSection } from './DoubleSection/DoubleSection';
 import { RadioGroup } from './RadioGroup/RadioGroup';
 import { Selects } from './Selects/Selects';
+import { Sliders } from './Sliders/Sliders';
 
 export const Mui = () => {
   return (
@@ -62,6 +63,10 @@ export const Mui = () => {
             <RadioGroup />
           </Section>
         </DoubleSection>
+
+        <Section>
+          <Sliders />
+        </Section>
       </div>
     </div>
   )
