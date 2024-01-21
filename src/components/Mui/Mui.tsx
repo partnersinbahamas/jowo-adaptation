@@ -8,6 +8,7 @@ import { Checkboxes } from './Checkboxes/Checkboxes';
 import { Fabs } from './Fabs/Fabs';
 import { DoubleSection } from './DoubleSection/DoubleSection';
 import { RadioGroup } from './RadioGroup/RadioGroup';
+import { Selects } from './Selects/Selects';
 
 export const Mui = () => {
   return (
@@ -15,14 +16,20 @@ export const Mui = () => {
       <h1 className={styles.title}>Material UI</h1>
 
       <div className={styles.sections}>
-        <Section>
-          <AutoComplete />
-        </Section>
+        <DoubleSection>
+          <Section>
+            <AutoComplete />
+          </Section>
+
+          <Section>
+            <Selects/>
+          </Section>
+        </DoubleSection>
 
         <DoubleSection>
-            <Section>
-              <Buttons />
-            </Section>
+          <Section>
+            <Buttons />
+          </Section>
 
           <Section>
             <GroupButtons variant="outlined" />
