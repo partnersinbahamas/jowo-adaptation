@@ -1,8 +1,9 @@
-import { Checkbox,FormControlLabel, FormGroup, Rating } from '@mui/material';
+import { Checkbox,FormControlLabel, FormGroup } from '@mui/material';
 import styles from './Checkboxes.module.scss';
 import { useState } from 'react';
 import { Favorite, FavoriteBorder } from '@mui/icons-material';
 import { pink } from '@mui/material/colors';
+import { Rating } from '../Rating/Rating';
 
 export const Checkboxes = () => {
   const [isChecked, setIsChecked] = useState<boolean>(false);
@@ -67,9 +68,9 @@ export const Checkboxes = () => {
             }
           />
         </FormGroup>
-  
-        <Rating />
       </div>
+
+      <Rating />
     </div>
   )
 }
