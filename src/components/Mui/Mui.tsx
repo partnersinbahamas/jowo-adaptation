@@ -10,6 +10,7 @@ import { DoubleSection } from './DoubleSection/DoubleSection';
 import { RadioGroup } from './RadioGroup/RadioGroup';
 import { Selects } from './Selects/Selects';
 import { Sliders } from './Sliders/Sliders';
+import { Switchs } from './Switchs/Switchs';
 
 export const Mui = () => {
   return (
@@ -64,9 +65,15 @@ export const Mui = () => {
           </Section>
         </DoubleSection>
 
-        <Section>
-          <Sliders />
-        </Section>
+        <DoubleSection>
+          <Section>
+            <Sliders />
+          </Section>
+
+          <Section>
+            <Switchs />
+          </Section>
+        </DoubleSection>
       </div>
     </div>
   )

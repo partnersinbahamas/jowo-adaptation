@@ -11,8 +11,6 @@ export const Selects = () => {
   const handleChangeMultiple = (event: any) => {
     const { options } = event.target;
 
-    console.log(options);
-
     const value: string[] = [];
     for (let i = 0, l = options.length; i < l; i += 1) {
       if (options[i].selected) {
@@ -35,11 +33,9 @@ export const Selects = () => {
     }
   }
 
-  console.log(movieArr);
-
   return (
     <div className={styles.wrapper}>
-      <h6>Selects</h6>
+      <h4>Selects</h4>
 
       <form
         className={styles.container}
