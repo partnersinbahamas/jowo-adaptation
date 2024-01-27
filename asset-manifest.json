@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jowo-adaptation/static/css/main.1719d9df.css",
+    "main.js": "/jowo-adaptation/static/js/main.40d85713.js",
+    "static/js/787.35bf49ab.chunk.js": "/jowo-adaptation/static/js/787.35bf49ab.chunk.js",
+    "index.html": "/jowo-adaptation/index.html",
+    "main.1719d9df.css.map": "/jowo-adaptation/static/css/main.1719d9df.css.map",
+    "main.40d85713.js.map": "/jowo-adaptation/static/js/main.40d85713.js.map",
+    "787.35bf49ab.chunk.js.map": "/jowo-adaptation/static/js/787.35bf49ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1719d9df.css",
+    "static/js/main.40d85713.js"
+  ]
+}
