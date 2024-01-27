@@ -1,3 +1,22 @@
+export const currencies = [
+  {
+    value: 'USD',
+    label: '$',
+  },
+  {
+    value: 'EUR',
+    label: '€',
+  },
+  {
+    value: 'BTC',
+    label: '฿',
+  },
+  {
+    value: 'JPY',
+    label: '¥',
+  },
+];
+
 export const movies = [
     { id: 1, label: 'The Shawshank Redemption', year: 1994 },
     { id: 2, label: 'The Godfather', year: 1972 },

@@ -11,6 +11,8 @@ import { RadioGroup } from './RadioGroup/RadioGroup';
 import { Selects } from './Selects/Selects';
 import { Sliders } from './Sliders/Sliders';
 import { Switchs } from './Switchs/Switchs';
+import { TextFields } from './TextFields/TextFields';
+import { ToggleButtons } from './ToggleButtons/ToggleButtons';
 
 export const Mui = () => {
   return (
@@ -25,6 +27,10 @@ export const Mui = () => {
 
           <Section>
             <Selects/>
+          </Section>
+
+          <Section>
+            <TextFields />
           </Section>
         </DoubleSection>
 
@@ -52,6 +58,10 @@ export const Mui = () => {
 
           <Section>
             <Fabs />
+          </Section>
+
+          <Section>
+            <ToggleButtons />
           </Section>
         </DoubleSection>
 
