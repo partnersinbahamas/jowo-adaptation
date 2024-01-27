@@ -13,6 +13,7 @@ import { Sliders } from './Sliders/Sliders';
 import { Switchs } from './Switchs/Switchs';
 import { TextFields } from './TextFields/TextFields';
 import { ToggleButtons } from './ToggleButtons/ToggleButtons';
+import { Avarats } from './Avarats/Avatars';
 
 export const Mui = () => {
   return (
@@ -84,6 +85,8 @@ export const Mui = () => {
             <Switchs />
           </Section>
         </DoubleSection>
+
+        <Avarats />
       </div>
     </div>
   )
