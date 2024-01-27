@@ -1,10 +1,9 @@
 import { Avatar, AvatarGroup, Badge, Box, Stack } from "@mui/material";
 import { Section } from "../../Section/Section";
-import styles from './Avarats.module.scss';
-import me from '../../../icons/my-avatar.png';
 import { deepPurple, green, lightGreen, red } from "@mui/material/colors";
 import { Delete, Folder } from "@mui/icons-material";
-import { totalmem } from "os";
+import styles from './Avarats.module.scss';
+import me from '../../../icons/my-avatar.png';
 
 export const Avarats = () => {
   return (
