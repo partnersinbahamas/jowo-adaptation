@@ -41,12 +41,9 @@ export const Mui = () => {
           <Section>
             <Buttons />
           </Section>
-
           <Section>
             <GroupButtons variant="outlined" />
-
             <br />
-
             <ButtonGroup
               className={styles.groupButton}
               orientation="vertical"
@@ -92,7 +89,7 @@ export const Mui = () => {
           <Avarats />
           <Badges />
         </DoubleSection>
-
+        
         <Chips />
       </div>
     </div>
