@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/jowo-adaptation/static/css/main.1719d9df.css",
-    "main.js": "/jowo-adaptation/static/js/main.40d85713.js",
+    "main.css": "/jowo-adaptation/static/css/main.0ff7646d.css",
+    "main.js": "/jowo-adaptation/static/js/main.c97ea017.js",
     "static/js/787.35bf49ab.chunk.js": "/jowo-adaptation/static/js/787.35bf49ab.chunk.js",
+    "static/media/my-avatar.png": "/jowo-adaptation/static/media/my-avatar.0a0b7dde1fb8fc48de59.png",
     "index.html": "/jowo-adaptation/index.html",
-    "main.1719d9df.css.map": "/jowo-adaptation/static/css/main.1719d9df.css.map",
-    "main.40d85713.js.map": "/jowo-adaptation/static/js/main.40d85713.js.map",
+    "main.0ff7646d.css.map": "/jowo-adaptation/static/css/main.0ff7646d.css.map",
+    "main.c97ea017.js.map": "/jowo-adaptation/static/js/main.c97ea017.js.map",
     "787.35bf49ab.chunk.js.map": "/jowo-adaptation/static/js/787.35bf49ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1719d9df.css",
-    "static/js/main.40d85713.js"
+    "static/css/main.0ff7646d.css",
+    "static/js/main.c97ea017.js"
   ]
 }
