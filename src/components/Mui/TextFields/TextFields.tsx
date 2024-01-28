@@ -4,11 +4,7 @@ import { currencies } from '../../../helpers/variables';
 import styles from './TextFields.module.scss';
 import { AccountCircle, Visibility, VisibilityOff } from '@mui/icons-material';
 import { red } from '@mui/material/colors';
-
-type TCurrency = {
-  label: string,
-  value: string,
-}
+import { TCurrency } from '../../types/Currency';
 
 function RedBar() {
     return (

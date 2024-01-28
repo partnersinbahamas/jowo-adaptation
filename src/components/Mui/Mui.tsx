@@ -15,6 +15,7 @@ import { TextFields } from './TextFields/TextFields';
 import { ToggleButtons } from './ToggleButtons/ToggleButtons';
 import { Avarats } from './Avarats/Avatars';
 import { Badges } from './Badges/Badges';
+import { Chips } from './Chips/Chips';
 
 export const Mui = () => {
   return (
@@ -91,6 +92,8 @@ export const Mui = () => {
           <Avarats />
           <Badges />
         </DoubleSection>
+
+        <Chips />
       </div>
     </div>
   )
