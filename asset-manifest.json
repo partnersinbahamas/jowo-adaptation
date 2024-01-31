@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/jowo-adaptation/static/css/main.4a091d39.css",
-    "main.js": "/jowo-adaptation/static/js/main.ed7a305e.js",
+    "main.js": "/jowo-adaptation/static/js/main.5e0e5470.js",
     "static/js/787.35bf49ab.chunk.js": "/jowo-adaptation/static/js/787.35bf49ab.chunk.js",
     "static/media/my-avatar.png": "/jowo-adaptation/static/media/my-avatar.0a0b7dde1fb8fc48de59.png",
     "index.html": "/jowo-adaptation/index.html",
     "main.4a091d39.css.map": "/jowo-adaptation/static/css/main.4a091d39.css.map",
-    "main.ed7a305e.js.map": "/jowo-adaptation/static/js/main.ed7a305e.js.map",
+    "main.5e0e5470.js.map": "/jowo-adaptation/static/js/main.5e0e5470.js.map",
     "787.35bf49ab.chunk.js.map": "/jowo-adaptation/static/js/787.35bf49ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a091d39.css",
-    "static/js/main.ed7a305e.js"
+    "static/js/main.5e0e5470.js"
   ]
 }
