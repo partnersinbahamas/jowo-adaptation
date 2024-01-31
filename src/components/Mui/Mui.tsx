@@ -16,6 +16,7 @@ import { ToggleButtons } from './ToggleButtons/ToggleButtons';
 import { Avarats } from './Avarats/Avatars';
 import { Badges } from './Badges/Badges';
 import { Chips } from './Chips/Chips';
+import { Deviders } from './Deviders/Deviders';
 
 export const Mui = () => {
   return (
@@ -76,9 +77,7 @@ export const Mui = () => {
         </DoubleSection>
 
         <DoubleSection>
-          <Section>
-            <Sliders />
-          </Section>
+          <Sliders />
 
           <Section>
             <Switchs />
@@ -90,7 +89,10 @@ export const Mui = () => {
           <Badges />
         </DoubleSection>
         
-        <Chips />
+        <DoubleSection>
+          <Chips />
+          <Deviders />
+        </DoubleSection>
       </div>
     </div>
   )
